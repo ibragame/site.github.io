@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список тортов</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список тортов</h1>
+        <ul class="cake-list">
+            <li onclick="showIngredients('chocolate')">Шоколадный торт</li>
+            <li onclick="showIngredients('vanilla')">Ванильный торт</li>
+            <li onclick="showIngredients('fruit')">Фруктовый торт</li>
+            <li onclick="showIngredients('blackforest')">Торт "Черный лес"</li>
+        </ul>
+        <div id="ingredients"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

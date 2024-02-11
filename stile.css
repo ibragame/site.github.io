@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cake-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cake-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.cake-list li:hover {
+    background-color: #e0e0e0;
+}
